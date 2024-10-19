@@ -1,0 +1,28 @@
+.events {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .events h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .event-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .event-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .event-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }  

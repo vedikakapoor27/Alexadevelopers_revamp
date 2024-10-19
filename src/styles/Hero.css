@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+.hero {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  background-color: black; /* Set black background */
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.hero button {
+  padding: 15px 30px;
+  background-color: #f0a500;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #e08900;
+}
+
+/* Dots animation */
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  background-color: green;
+  opacity: 0.8;
+  animation: move 5s infinite; /* Adjust duration for speed */
+  pointer-events: none; /* Prevent dots from capturing mouse events */
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(calc(100vw - 30px), calc(100vh - 30px));
+  }
+}

@@ -1,0 +1,29 @@
+.membership {
+    padding: 50px;
+    background-color: #eaeaea;
+    text-align: center;
+  }
+  
+  .membership h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .membership p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .membership button {
+    padding: 15px 30px;
+    background-color: #f0a500;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .membership button:hover {
+    background-color: #e08900;
+  }
+  
