@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <div className="hero">
       {createDots(30)} {/* Adjust number of dots here */}
-      <h1>Welcome to Our College Club</h1>
+      <h1>Welcome to Alexaverse</h1>
       <p>Join us and be part of something amazing!</p>
       <button>Get Started</button>
     </div>
